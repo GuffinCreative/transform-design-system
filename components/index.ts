@@ -9,4 +9,5 @@ export * from "./ui/chart";
 export * from "./ui/checkbox";
 export * from "./ui/collapsible";
 export * from "./ui/combobox";
+export * from "./ui/command";
 export * from "./ui/input";
