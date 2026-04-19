@@ -14,5 +14,6 @@ export * from "./ui/context-menu";
 export * from "./ui/date-picker";
 export * from "./ui/dialog";
 export * from "./ui/drawer";
+export * from "./ui/dropdown-menu";
 export * from "./ui/input";
 export * from "./ui/table";
