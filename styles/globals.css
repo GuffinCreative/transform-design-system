@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand */
+    --color-primary: #F05525;
+    --color-secondary: #F8A652;
+    --color-mid-orange: #F47C3B;
+    --color-outline: #2A432F;
+    --color-alt: #647967;
+    --color-mid-forest: #4D6753;
+    --color-accent: #FEE489;
+    --color-tan: #EEC892;
+    --color-dark-green: #091715;
+    --color-light: #FFFCF5;
+    --color-white: #FEFEFE;
+
+    /* shadcn/ui semantic mappings (light mode) */
+    --background: #FFFCF5;
+    --foreground: #091715;
+
+    --card: #FEFEFE;
+    --card-foreground: #091715;
+
+    --popover: #FEFEFE;
+    --popover-foreground: #091715;
+
+    --primary: #F05525;
+    --primary-foreground: #FFFCF5;
+
+    --secondary: #F8A652;
+    --secondary-foreground: #091715;
+
+    --muted: #EEC892;
+    --muted-foreground: #4D6753;
+
+    --accent: #FEE489;
+    --accent-foreground: #091715;
+
+    --destructive: #ef4444;
+    --destructive-foreground: #FFFCF5;
+
+    --border: #2A432F;
+    --input: #2A432F;
+    --ring: #F05525;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: #091715;
+    --foreground: #FFFCF5;
+
+    --card: #091715;
+    --card-foreground: #FFFCF5;
+
+    --popover: #091715;
+    --popover-foreground: #FFFCF5;
+
+    --primary: #F05525;
+    --primary-foreground: #FFFCF5;
+
+    --secondary: #4D6753;
+    --secondary-foreground: #FFFCF5;
+
+    --muted: #2A432F;
+    --muted-foreground: #647967;
+
+    --accent: #FEE489;
+    --accent-foreground: #091715;
+
+    --destructive: #ef4444;
+    --destructive-foreground: #FFFCF5;
+
+    --border: #2A432F;
+    --input: #2A432F;
+    --ring: #F05525;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
