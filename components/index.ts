@@ -12,3 +12,4 @@ export * from "./ui/combobox";
 export * from "./ui/command";
 export * from "./ui/context-menu";
 export * from "./ui/input";
+export * from "./ui/table";
