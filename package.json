@@ -19,9 +19,11 @@
     "lint": "tsc --noEmit"
   },
   "peerDependencies": {
+    "@hookform/resolvers": ">=3",
     "@tanstack/react-table": ">=8",
     "react": ">=18",
     "react-dom": ">=18",
+    "react-hook-form": ">=7",
     "recharts": ">=2"
   },
   "dependencies": {
