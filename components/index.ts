@@ -11,5 +11,6 @@ export * from "./ui/collapsible";
 export * from "./ui/combobox";
 export * from "./ui/command";
 export * from "./ui/context-menu";
+export * from "./ui/date-picker";
 export * from "./ui/input";
 export * from "./ui/table";
