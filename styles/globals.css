@@ -49,6 +49,13 @@
     --ring: #F05525;
 
     --radius: 0.5rem;
+
+    /* Chart palette — TransformSEO brand mapped */
+    --chart-1: #F05525;
+    --chart-2: #4D6753;
+    --chart-3: #F47C3B;
+    --chart-4: #FEE489;
+    --chart-5: #647967;
   }
 
   .dark {
@@ -79,6 +86,12 @@
     --border: #2A432F;
     --input: #2A432F;
     --ring: #F05525;
+
+    --chart-1: #F05525;
+    --chart-2: #647967;
+    --chart-3: #F47C3B;
+    --chart-4: #FEE489;
+    --chart-5: #4D6753;
   }
 }
 
