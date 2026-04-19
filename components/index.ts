@@ -16,5 +16,6 @@ export * from "./ui/dialog";
 export * from "./ui/drawer";
 export * from "./ui/dropdown-menu";
 export * from "./ui/empty";
+export * from "./ui/field";
 export * from "./ui/input";
 export * from "./ui/table";
