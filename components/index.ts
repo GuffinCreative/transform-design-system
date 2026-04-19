@@ -10,4 +10,5 @@ export * from "./ui/checkbox";
 export * from "./ui/collapsible";
 export * from "./ui/combobox";
 export * from "./ui/command";
+export * from "./ui/context-menu";
 export * from "./ui/input";
