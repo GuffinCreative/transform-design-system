@@ -22,4 +22,5 @@ export * from "./ui/hover-card";
 export * from "./ui/input-group";
 export * from "./ui/input-otp";
 export * from "./ui/input";
+export * from "./ui/item";
 export * from "./ui/table";
